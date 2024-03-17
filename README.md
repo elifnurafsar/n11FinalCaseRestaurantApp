@@ -134,4 +134,34 @@ Because the String or Point datatype that we used when creating the Restaurant i
   <li>Run application</li>
 </ol>
 
+## Screenshot Examples
 
+### Get All Restaurants
+
+![getAllRestaaurants](https://github.com/elifnurafsar/xxx/assets/60623941/8e7bdc0b-06d1-4f07-b16e-fd08d76fa6e9)
+
+
+## Get by ID
+
+![search_by_id](https://github.com/elifnurafsar/xxx/assets/60623941/57e9ebf9-8725-41ad-b5fd-30f562175f97)
+
+### Search By Name
+
+![search_by_name](https://github.com/elifnurafsar/xxx/assets/60623941/a8c8e41c-fe7c-4088-b8c3-db25a2fa5d96)
+
+## Delete Restaurant
+![delete_restaurant](https://github.com/elifnurafsar/xxx/assets/60623941/0a5d67a0-3732-4d54-9a23-112a9748b92b)
+
+## Get All After Delete
+![result_delete](https://github.com/elifnurafsar/xxx/assets/60623941/1ba1eb47-d765-4bb4-a9ab-b04d8caa8760)
+
+## Create Restaurant
+
+ <img src="https://github.com/elifnurafsar/xxx/assets/60623941/c01742ca-4fca-4fb4-99b7-ec3ac3daf8d0" alt="Example Request">
+
+## Update Restaurant
+
+![updateRestaurant](https://github.com/elifnurafsar/xxx/assets/60623941/584fdfd8-00c5-4097-b775-7e9a7f73fc18)
+
+## Result
+![get_updated](https://github.com/elifnurafsar/xxx/assets/60623941/912ae8b5-412e-4ed4-922d-c1b8b1dd02a1)
