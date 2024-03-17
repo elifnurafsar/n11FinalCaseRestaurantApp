@@ -38,3 +38,16 @@
 172.18.0.1 - - [17/Mar/2024:11:19:33 +0000] "GET /solr/n11_restaurants/select?q=*%3A*&start=0&rows=0&wt=javabin&version=2 HTTP/1.1" 200 117
 172.18.0.1 - - [17/Mar/2024:11:19:33 +0000] "GET /solr/n11_restaurants/select?q=*%3A*&start=0&rows=5&wt=javabin&version=2 HTTP/1.1" 200 1041
 172.18.0.1 - - [17/Mar/2024:11:19:49 +0000] "GET /solr/n11_restaurants/select?q=id%3A950f4ed9%5C-291b%5C-441f%5C-a2ec%5C-7941de35cf49&start=0&rows=1&wt=javabin&version=2 HTTP/1.1" 200 411
+172.18.0.1 - - [17/Mar/2024:11:51:35 +0000] "GET /solr HTTP/1.1" 302 0
+172.18.0.1 - - [17/Mar/2024:11:51:35 +0000] "GET /solr/ HTTP/1.1" 200 3322
+172.18.0.1 - - [17/Mar/2024:11:51:35 +0000] "GET /solr/admin/cores?_=1710676295434&indexInfo=false&wt=json HTTP/1.1" 200 407
+172.18.0.1 - - [17/Mar/2024:11:51:35 +0000] "GET /solr/img/favicon.ico?_=9.5.0 HTTP/1.1" 200 2350
+172.18.0.1 - - [17/Mar/2024:11:51:38 +0000] "GET /solr HTTP/1.1" 302 0
+172.18.0.1 - - [17/Mar/2024:11:51:39 +0000] "GET /solr/admin/info/system?_=1710676295434&wt=json HTTP/1.1" 200 1441
+172.18.0.1 - - [17/Mar/2024:11:51:39 +0000] "GET /solr/admin/info/system?_=1710676295434&wt=json HTTP/1.1" 200 1439
+172.18.0.1 - - [17/Mar/2024:11:51:40 +0000] "GET /solr/admin/cores?_=1710676295434&indexInfo=false&wt=json HTTP/1.1" 200 407
+172.18.0.1 - - [17/Mar/2024:11:51:40 +0000] "GET /solr/admin/cores?_=1710676295434&wt=json HTTP/1.1" 200 1156
+172.18.0.1 - - [17/Mar/2024:11:51:41 +0000] "GET /solr/admin/cores?_=1710676295434&indexInfo=false&wt=json HTTP/1.1" 200 407
+172.18.0.1 - - [17/Mar/2024:11:51:41 +0000] "GET /solr/admin/cores?_=1710676295434&wt=json HTTP/1.1" 200 1156
+172.18.0.1 - - [17/Mar/2024:11:51:42 +0000] "GET /solr/admin/info/system?_=1710676295434&wt=json HTTP/1.1" 200 1444
+172.18.0.1 - - [17/Mar/2024:11:51:42 +0000] "GET /solr/admin/info/system?_=1710676295434&wt=json HTTP/1.1" 200 1441

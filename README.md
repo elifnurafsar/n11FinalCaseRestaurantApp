@@ -99,3 +99,39 @@ DELETE /api/restaurants?id={id}
 | Parameter | Type     | Description                |
 | :-------- | :------- | :------------------------- |
 | `id` | `string` | **Required** The id of the restaurant to be deleted.|
+
+## Installation Guide
+
+Because the String or Point datatype that we used when creating the Restaurant instance are not compatible Solr location datatype we need extra steps to run this project.
+
+<ol>
+  <li>Clone the project to your locale.</li>
+  <li>Comment the below line in RestaurantService.java
+    <br>
+    <img src="https://github.com/elifnurafsar/xxx/assets/60623941/1c70fe3b-1fc1-44e8-9e7f-defb81aab00b" alt="line to be commented">
+  </li>
+  <li>Delete the data folder
+    <br>
+     <img src="https://github.com/elifnurafsar/xxx/assets/60623941/6655fe95-9f84-4d3a-9147-2e691dc9701d" alt="location of the data folder">
+  </li>
+  <li>Check SolrConfig and docker-compose.yaml</li>
+  <li>Run <sub> docker-compose up -d </sub></li>
+  <li>Run RestaurantAppApplication.java</li>
+  <li>Create a restaurant data (so it can generate managed-schema.xml)
+     <br>
+     <img src="https://github.com/elifnurafsar/xxx/assets/60623941/c01742ca-4fca-4fb4-99b7-ec3ac3daf8d0" alt="Example Request">
+  </li>
+  <li>From new generated data folder go to managed-schema.xml and update restaurantLocation field
+    <br>
+     <img src="https://github.com/elifnurafsar/xxx/assets/60623941/43d09983-7b35-42a6-bb59-943b416a8b48" alt="Lines to be added">
+  </li>
+  <li>From Solr Admin Reload the core
+    <br>
+    <img src="https://github.com/elifnurafsar/xxx/assets/60623941/778608fb-090b-4bb1-8a13-ffe62aa60882" >
+  </li>
+  <li>Stop the Application</li>
+  <li>Uncomment the line that given in step-2</li>
+  <li>Run application</li>
+</ol>
+
+
